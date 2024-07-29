@@ -46,15 +46,20 @@ Ensure you have the following Python libraries installed:
 
 Install the required packages using pip:
 
-```bash
-pip install PyPDF2 nltk scikit-learn
 
-### **Setup**
-Set File Paths:
+`pip install PyPDF2 nltk scikit-learn `
 
-##### Query Invoice Path:
-Update the query_invoice_path variable in the script to point to the PDF file of the invoice you want to compare.
-`query_invoice_path = './test/invoice_number.pdf'`
+### Setup
+
+#### Set File Paths:
+
+**Query Invoice Path:**
+
+Update the `query_invoice_path` variable in the script to point to the PDF file of the invoice you want to compare.
+
+`
+query_invoice_path = './test/invoice_number.pdf'`
+
 
 ##### PDF Directory:
 Update the pdf_directory variable in the script to point to the directory containing the PDFs you want to compare against.
